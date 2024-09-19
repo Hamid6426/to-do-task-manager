@@ -1,7 +1,7 @@
-import Header from "./components/Header";
-import SideBar from "./components/SideBar";
-import AllTasks from "./components/AllTasks";
-import MobileBar from "./components/MobileBar";
+import Header from "../components/Header";
+import Sidebar from "../components/SideBar";
+import AllTasks from "../components/AllTasks";
+import MobileBar from "../components/MobileBar";
 
 // import Image from "next/image";
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
         <MobileBar />
       </div>
       <div className="flex flex-row w-screen gap-4 px-4 justify-center">
-        <SideBar />
+        <Sidebar />
         <AllTasks />
       </div>
     </div>
